@@ -27,3 +27,12 @@ if name == "":
     print("You did not type in your name")
 else:
     print(f"Hello {name}")
+
+
+
+for_sale = True
+
+if for_sale:
+    print("This item is for sale")
+else:
+    print("This item is NOT for sale")
