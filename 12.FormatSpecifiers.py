@@ -16,4 +16,4 @@ print(f"Price 2 is: ${price2: }")
 
 price4 = 123456.7890
 print(f"Price 4 is: ${price4:,}") # seperates 1,000 with comma
-print(f"Price 4 is: ${price4:+,.2f}") # can mix and match format specifiers
+print(f"Price 4 is: ${price4:+,.2f}") # can mix and match format specifiers (postive, comma, 2 decimal places)
