@@ -11,6 +11,6 @@ for x in credit_card:
 
 for x in range (1,20):
     if x == 13: # skips 13 bc its an unlucky number
-        continue
+        continue # if you use break the code will stop at 12
     else: 
         print(x)
