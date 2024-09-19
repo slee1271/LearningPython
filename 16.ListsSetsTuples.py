@@ -34,5 +34,5 @@ print(fruits)
 
 fruits = ("apple", "orange", "banana", "strawberry", "banana")
 print(fruits) 
-print(fruits.index("apple"))
-print(fruits.count("banana"))
+print(fruits.index("apple")) #shows index number
+print(fruits.count("banana")) #counts the amount of times it shows up
