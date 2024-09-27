@@ -50,7 +50,9 @@ def is_weekend(day):
     match day:
         case "Sunday" | "Saturday": # "|" is the or operator
             return True
-        case _:
+        case "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday":
+            return False
+        case _: # "_" is wildcard case
             return False
 
 print(is_weekend("Sunday"))
