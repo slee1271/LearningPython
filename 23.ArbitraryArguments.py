@@ -7,7 +7,6 @@ def add(*args): # can change *args to *nums or anything of your choice
     for arg in args:
         total += arg
     return total
-
 print(add(1,2,3,4,5))
 
 def display_name(*args):
@@ -15,3 +14,8 @@ def display_name(*args):
         print(arg, end=" ")
 
 display_name("Mr.","Shawn", "Shin", "Lee","III")
+
+def print_address(**kwargs):
+    pass
+
+print_address(street="123 Fake Str", city="Narnia", province="Atlantis", zip="A1B 2C3")
