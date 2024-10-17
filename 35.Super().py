@@ -39,7 +39,8 @@ print(circle.colour)
 print(circle.filled)
 print(circle.radius)
 
-# the describe() of circle will be called instead of the parent describe of Shape
+# the describe() method of circle will be called instead of the parent describe() of Shape
+# look at line 23 to use describe of Shape
 circle.describe()
 print()
 
