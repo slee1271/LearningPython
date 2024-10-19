@@ -2,7 +2,7 @@
 # pass the base function as an argument to the decorator 
 
 def add_sprinkles(func):
-    def wrapper(*args, **kwargs):
+    def wrapper(*args, **kwargs): # adding this lets "vanilla" to be printed
         print("You added sprinkles")
         func(*args, **kwargs)
     return wrapper
